@@ -97,7 +97,7 @@ input[type=text]:hover
     border-color: black;
     border-radius: 5px; /*For afrundede kanter på border*/
 
-    font-size: 20px;
+    font-size: 15px;
     line-height: 40px; /*For luft om bogstaver*/
     padding-left: 10px; /*For luft om bogstaver*/
 }
@@ -110,7 +110,7 @@ input[type=text]:hover
     border-color: black;
     border-radius: 5px;
 
-    font-size: 20px;
+    font-size: 15px;
     line-height: 40px;
     padding-left: 10px;
 }
@@ -118,6 +118,7 @@ input[type=text]:hover
 
 input[type=button], input[type=submit], input[type=reset] {
     background-color: #F0FEE8;
+    font-size: 15px;
     border: 2px solid;
     border-radius: 5px;
     color: black;
