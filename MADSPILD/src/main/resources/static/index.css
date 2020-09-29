@@ -2,9 +2,83 @@ body
 {
     margin: 0;
     background-image: url("https://i.imgur.com/iFOwF0k.png");
+    font-family: 'Quicksand', serif;
 }
 
-.indexwrapper
+.indexlogo
 {
-    position: absolute;
+    position: relative;
+    padding-top: 30px;
+    width: 650px;
+    margin: auto;
+}
+
+.font
+{
+
+}
+
+.color
+{
+    background-color: #B6DFC0;
+}
+
+#login-form
+{
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    border: 3px solid;
+    border-radius: 15px;
+    height: 300px;
+}
+
+#form-container
+{
+    padding-top:70px;
+    width: 500px;
+    margin: auto;
+}
+
+.loginformheadline
+{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.submitbutton
+{
+    position: relative;
+    float: right;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#brugernavn
+{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 25px;
+    border-color: black;
+}
+
+#kode
+{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 25px;
+    border-color: black;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #B6DFC0;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
