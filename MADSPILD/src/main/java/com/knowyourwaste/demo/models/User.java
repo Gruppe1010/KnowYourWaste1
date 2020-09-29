@@ -1,16 +1,20 @@
 package com.knowyourwaste.demo.models;
 
+import com.knowyourwaste.demo.FileManager;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class User
+public class User implements Serializable
 {
     private String username;
     private String email;
     private String password;
-    
     private ArrayList<WasteList> wasteListArray;
     
-    // constructor
+    private static final long serialVersionUID = 1234L;
+    
+    // Constructor
     public User(String username, String email, String password)
     {
         this.username = username;
@@ -19,7 +23,7 @@ public class User
         wasteListArray = new ArrayList<>();
     }
     
-    // getters + setters
+    // Getters + setters
     public String getUsername()
     {
         return username;
@@ -54,6 +58,16 @@ public class User
     }
     
     
+    // Andre metoder
+    
+    /*metode vi kan kalde i vores andre metoder som sørger for at opdatere vores fil
+    public void updateUserListExport(ArrayList<User> userList)
+    {
+        FileManager<User> fileManager = new FileManager<User>();
+        fileManager.dataWriter("userlistfile", userList);
+    }
+    
+     */
     
     
     

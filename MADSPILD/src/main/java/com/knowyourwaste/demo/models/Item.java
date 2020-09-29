@@ -1,9 +1,13 @@
 package com.knowyourwaste.demo.models;
 
-public class Item
+import java.io.Serializable;
+
+public class Item implements Serializable
 {
     private String name;
     private int wasteNumber;
+    
+    private static final long serialVersionUID = 1234L;
     
     // constructor
     public Item(String name, int wasteNumber)
