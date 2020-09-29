@@ -1,9 +1,10 @@
 body
 {
     margin: 0;
+    background-image: url("https://i.imgur.com/iFOwF0k.png");
 }
 
 .indexwrapper
 {
-
+    position: absolute;
 }
