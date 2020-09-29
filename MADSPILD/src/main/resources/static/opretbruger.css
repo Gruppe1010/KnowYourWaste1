@@ -17,6 +17,7 @@ body
 {
     background-color: #F0FEE8;
 }
+
 #form-container
 {
     padding-top:70px;
@@ -24,13 +25,13 @@ body
     margin: auto;
 }
 
-#login-form
+#opretbruger-form
 {
     background-color: white;
     padding: 20px 30px 20px 30px;
     border: 3px solid;
     border-radius: 15px;
-    height: 310px;
+    height: 450px;
 }
 
 .loginformheadline
@@ -40,7 +41,7 @@ body
     padding-bottom: 20px;
 }
 
-.opretbruger
+.tilbagetillogind
 {
     position: relative;
     display: inline;
@@ -56,17 +57,17 @@ body
     cursor: pointer;
 }
 
-a.opretbruger:link
+a.tilbagetillogind:link
 {
     color: black;
     border-color: black;
     text-decoration: none;
 }
-a.opretbruger:hover
+a.tilbagetillogind:hover
 {
     color: black;
 }
-a.opretbruger:visited
+a.tilbagetillogind:visited
 {
     color: black;
 }
@@ -89,7 +90,16 @@ a.opretbruger:visited
     border-color: black;
     line-height: 40px;
     padding-left: 10px;
-
+}
+#email
+{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: black;
+    line-height: 40px;
+    padding-left: 10px;
 }
 
 #adgangskode
@@ -102,7 +112,16 @@ a.opretbruger:visited
     line-height: 40px;
     padding-left: 10px;
 }
-
+#bekræftadgangskode
+{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: black;
+    line-height: 40px;
+    padding-left: 10px;
+}
 
 
 input[type=button], input[type=submit], input[type=reset] {

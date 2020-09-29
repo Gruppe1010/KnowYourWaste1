@@ -12,5 +12,11 @@ public class KnowYourWasteController
         return "index";
     }
     
+    @GetMapping("/opretbruger")
+    public String opretBruger()
+    {
+        return "opretbruger";
+    }
+    
     
 }

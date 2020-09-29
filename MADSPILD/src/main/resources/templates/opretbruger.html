@@ -8,7 +8,7 @@
     <meta name="description" content="KnowYourWaste er en side for forretninger, der ønsker at mindske deres madspild"/>
 
     <!-- css-filer -->
-    <link href="/index.css" type="text/css" rel="stylesheet">
+    <link href="/opretbruger.css" type="text/css" rel="stylesheet">
 
     <!-- bootstraaaaap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -32,8 +32,8 @@
                 <div id="form-container">
                     <!-- Dette er en form
                     Vi laver @PostMapping("/login") i Controlleren for at lave et endpoint - pga. denne form -->
-                    <form id="login-form" action="/logind" method="post">
-                        <h5 class="loginformheadline">Log ind</h5>
+                    <form id="opretbruger-form" action="/opretbruger" method="post">
+                        <h5 class="loginformheadline">Opret bruger</h5>
                         <!--<input> Laver input-felt
                         type="text" == typen af input der tages imod i inputfeltet
                         id="brugernavn" == Kalder bestemt styling vi har i css-filen
@@ -41,11 +41,16 @@
 
                         <input type="text" id="brugernavn" name="brugernavninput" placeholder="Brugernavn" required class="color"><br><br>
 
-                        <input type="text" id="adgangskode" name="adgangskodeinput" placeholder="Adgangskode" required  class="color"><br><br>
+                        <input type="text" id="email" name="emailinput" placeholder="E-mail" required class="color"><br><br>
 
-                        <a href="/opretbruger" class="opretbruger">Opret bruger</a>
+                        <input type="text" id="adgangskode" name="adgangskodeinput" placeholder="Adgangskode" required class="color"><br><br>
 
-                        <input type="submit" value="Log ind" class="submitbutton">
+                        <input type="text" id="bekræftadgangskode" name="bekræftadgangskodeinput" placeholder="Bekræft adgangskode" required class="color"><br><br>
+
+                        <a href="/" class="tilbagetillogind">Tilbage til log ind</a>
+                        <!--<input type="submit" value=<a href="/opretBruger"> class="opretbrugerbutton">-->
+
+                        <input type="submit" value="Opret bruger" class="submitbutton">
                     </form>
                 </div>
             </div>
