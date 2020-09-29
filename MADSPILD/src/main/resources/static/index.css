@@ -13,11 +13,6 @@ body
     margin: auto;
 }
 
-.font
-{
-
-}
-
 .color
 {
     background-color: #B6DFC0;
@@ -63,7 +58,7 @@ body
     border-color: black;
 }
 
-#kode
+#adgangskode
 {
     position: relative;
     width: 100%;
